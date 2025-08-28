@@ -56,7 +56,7 @@ Online platforms struggle with toxic comments such as harassment, hate speech, a
 ## 🖥️ Getting Started
 
 1. Clone this repository  
-`git clone https://github.com/yourusername/comment-toxicity-detection.git`
+`git clone https://github.com/gvdharun/Comment-Toxicity-Detection.git`
 
 
 2. Install dependencies  
