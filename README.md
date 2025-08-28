@@ -47,9 +47,27 @@ Online platforms struggle with toxic comments such as harassment, hate speech, a
 
 | Model      | Training Accuracy | Validation Accuracy | Remarks                               |
 |------------|-------------------|---------------------|-------------------------------------|
-| CNN        | ~99.4%            | ~99.4%              | Fast, good baseline                  |
-| LSTM       | (TBD)             | (TBD)               | Better context modeling              |
+| CNN        | ~99.4%            | ~99.40%              | Fast, good baseline                  |
+| LSTM       | ~99.39%           | ~99.40%               | Better context modeling              |
 | BERT       | >95% (typical)    | >95% (typical)      | State-of-the-art contextual model   |
+
+---
+
+## Best Model: Convolutional Neural Network (CNN)
+
+- **Architecture Highlights:**
+  - Embedding layer to convert tokens into dense vectors.
+  - 1D Convolutional layer to capture local phrase patterns.
+  - Global max pooling for robust feature extraction.
+  - Fully connected dense layers for multi-label binary classification.
+
+- **Performance:**
+  - **Training Accuracy:** ~99.4%
+  - **Validation Accuracy:** ~99.4%
+  - **Training Loss:** ~0.13
+  - **Validation Loss:** ~0.14
+
+> The CNN model strikes a good balance between accuracy, training speed, and resource efficiency, making it an excellent choice for deployment in practical toxicity detection systems.
 
 ---
 
